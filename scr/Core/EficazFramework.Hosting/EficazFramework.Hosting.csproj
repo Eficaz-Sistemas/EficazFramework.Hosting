@@ -8,6 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="DistributedApplication.cs" />
+    <Compile Remove="DistributedApplicationBuilder.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Dashboard\proto\resource_service.proto" />
   </ItemGroup>
 
