@@ -3,11 +3,11 @@
 
 using System.Collections.Immutable;
 using System.Globalization;
-using Aspire.Dashboard.Model;
-using Aspire.Hosting.ApplicationModel;
+using EficazFramework.Dashboard.Model;
+using EficazFramework.Hosting.ApplicationModel;
 using Google.Protobuf.WellKnownTypes;
 
-namespace Aspire.Hosting.Dashboard;
+namespace EficazFramework.Hosting.Dashboard;
 
 internal abstract class ResourceSnapshot
 {

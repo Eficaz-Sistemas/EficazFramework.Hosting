@@ -3,7 +3,7 @@
 
 using System.Collections.Immutable;
 
-namespace Aspire.Hosting.ApplicationModel;
+namespace EficazFramework.Hosting.ApplicationModel;
 
 /// <summary>
 /// An immutable snapshot of the state of a resource.

@@ -1,7 +1,7 @@
 // Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-namespace Aspire.Hosting.ApplicationModel;
+namespace EficazFramework.Hosting.ApplicationModel;
 
 /// <summary>
 /// Represents a resource that can be hosted by an application.

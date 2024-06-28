@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EficazFramework.Aspire.Hosting", "Hosting\EficazFramework.Aspire.Hosting\EficazFramework.Aspire.Hosting.csproj", "{3CA2E7A2-10A7-4C8D-8555-DEEBB56D6B3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EficazFramework.Hosting", "Core\EficazFramework.Hosting\EficazFramework.Hosting.csproj", "{3CA2E7A2-10A7-4C8D-8555-DEEBB56D6B3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
