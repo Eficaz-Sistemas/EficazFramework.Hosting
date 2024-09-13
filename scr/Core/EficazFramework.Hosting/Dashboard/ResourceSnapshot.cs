@@ -9,7 +9,7 @@ using Google.Protobuf.WellKnownTypes;
 
 namespace EficazFramework.Hosting.Dashboard;
 
-internal abstract class ResourceSnapshot
+public abstract class ResourceSnapshot
 {
     public abstract string ResourceType { get; }
 

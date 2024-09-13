@@ -8,8 +8,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ApplicationModel\**" />
+    <EmbeddedResource Remove="ApplicationModel\**" />
+    <None Remove="ApplicationModel\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Dashboard\KnownResourceTypes.cs" />
     <Compile Remove="DistributedApplication.cs" />
     <Compile Remove="DistributedApplicationBuilder.cs" />
+    <Compile Remove="DistributedApplicationExecutionContext.cs" />
+    <Compile Remove="DistributedApplicationOperation.cs" />
+    <Compile Remove="DistributedApplicationOptions.cs" />
+    <Compile Remove="IDistributedApplicationBuilder.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,11 +28,18 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Grpc.AspNetCore" Version="2.63.0" />
+    <Compile Include="ApplicationModel\CustomResourceSnapshot.cs" />
+    <Compile Include="ApplicationModel\KnownResourceStates.cs" />
+    <Compile Include="ApplicationModel\KnownResourceStateStyles.cs" />
+    <Compile Include="ApplicationModel\KnownResourceTypes.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <Protobuf Include="Dashboard\proto\resource_service.proto" GrpcServices="Server" Access="Internal" />
+    <PackageReference Include="Grpc.AspNetCore" Version="2.65.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="Dashboard\proto\resource_service.proto" GrpcServices="Server" Access="Public" />
   </ItemGroup>
 
 </Project>

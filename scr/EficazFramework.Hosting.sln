@@ -5,6 +5,10 @@ VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EficazFramework.Hosting", "Core\EficazFramework.Hosting\EficazFramework.Hosting.csproj", "{3CA2E7A2-10A7-4C8D-8555-DEEBB56D6B3D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7985C205-7EC7-4DD1-9A10-6B666E09A11F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGrpcServer", "Tests\TestGrpcServer\TestGrpcServer.csproj", "{30507FDA-1944-487B-9634-77670E6136B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{3CA2E7A2-10A7-4C8D-8555-DEEBB56D6B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CA2E7A2-10A7-4C8D-8555-DEEBB56D6B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CA2E7A2-10A7-4C8D-8555-DEEBB56D6B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30507FDA-1944-487B-9634-77670E6136B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30507FDA-1944-487B-9634-77670E6136B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30507FDA-1944-487B-9634-77670E6136B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30507FDA-1944-487B-9634-77670E6136B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30507FDA-1944-487B-9634-77670E6136B3} = {7985C205-7EC7-4DD1-9A10-6B666E09A11F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8400441D-09E7-42FB-993C-F6EA4512B33B}
